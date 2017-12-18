@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  become: no
+  become: yes
   tasks:
   - name: Print variable 
     debug:
